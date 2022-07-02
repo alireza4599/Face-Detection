@@ -1,6 +1,6 @@
 import cv2      #//OpenCv\\\
 
-faceXML = cv2.CascadeClassifier('face.xml')    #choos your Option(face,body)
+faceXML = cv2.CascadeClassifier('dataFace.xml')    #choos your Option(face,body)
 
 cap = cv2.VideoCapture(1)  # choos your camera(0,1)
 
